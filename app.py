@@ -16,7 +16,7 @@ if comment:
     
     result = loaded_model.predict_proba(X_new)[0]
     
-    class_names = ["pornografi", "sara", "radikalisme", "pencemaran Nama Baik"]
+    class_names = ["pornografi", "sara", "radikalisme", "pencemaran nama baik"]
     
     outputs = []
     for index, cls in enumerate(result):
